@@ -7,7 +7,6 @@ import sys
 def check_ssl(url):
     """
     Check if a website uses HTTPS and verify its SSL certificate.
-    Simulates OWASP ZAP-like functionality for basic vulnerability assessment.
     """
     try:
         # Validate URL
@@ -43,8 +42,7 @@ def check_ssl(url):
 
 def simulate_vulnerability_scan(url):
     """
-    Simulate a basic web vulnerability scan (e.g., checking for common issues).
-    In a real scenario, this would integrate with OWASP ZAP or similar tools.
+    Simulate a basic web vulnerability scan
     """
     try:
         print(f"Simulating vulnerability scan for {url}")
